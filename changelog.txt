@@ -1,0 +1,135 @@
+   ___       ____    __                     ___
+  / _ )__ __/ / /__ / /____  _______  ___  / _/
+ / _  / // / / / -_) __/ _ \/ __/ _ \/ _ \/ _/
+/____/\_,_/_/_/\__/\__/ .__/_/  \___/\___/_/
+                     /_/
+         ___ __
+ ___ ___/ (_) /_
+/ -_) _  / / __/
+\__/\_,_/_/\__/
+   __
+  / /  __ __
+ / _ \/ // /
+/_.__/\_, /
+     /___/
+       __               ____
+  ___ / /  ___ ___  ___/ / /__ __    __
+ (_-</ _ \/ -_) _ \/ _  / / _ `/ |/|/ /
+/___/_//_/\__/_//_/\_,_/_/\_,_/|__,__/
+
+All changes and fixes from first edit to last edit.
+
+18/07/2015
+- Fixed PLAYERCLICK Dialog (Before: http://i.imgur.com/GbHwIYK.png Now: http://i.imgur.com/jMdlKlI.png)
+- Added /kill command
+- Changed attackers color from red to green/lime
+- Changed main color to green/lime
+- Changed names from Alpha to Attackers
+
+19/07/2015
+- You now can select Sniper/Deagle
+- League mode removed for now
+- Themes and chatcolor command removed
+- Edited /checkversion command
+- Changed PLAYERCLICK dialog colors from red to green/lime
+- Removed /kill command, not needed
+- Fixed sniper/deagle set
+- Fixed blue background on info textdraw while round is in progress
+- Maxium 2 deagle per team, Maxium 1 M4 per team
+- Removed Knife, Grenades, Tetragas or how the fuck is named (i mean i set ammo to 0 you should be able to take knife i think i dont give a shit)
+- No more sniper/deagle (it has a bug)
+
+21/07/2015
+- Gamemode updated to beta 11
+- Maxium 2 M4 per team, since someone was asking my why only one, for prevent the annoying m4-ing spamming it annoy me but im all ears with players so i will put what players want to
+
+22/07/2015
+- Updatet with last commits by Khalid
+- Removed geoip.db and replaced with lookup include for don't upload a 15mb annoying file
+- Added connected from region/county + country on player connect and on player stats(onplayerclick dialog)
+
+23/07/2015
+- Updated once again with last commits by Khalid
+- Changed some texts
+- Removed country and regoin thing(it takes too much time for find the country, tiger's geoip does it in 1ms)
+
+25/07/2015
+- New camera at class selection
+- Added weapon icon when player take damage on top of skin (OnPlayerTakeDamage)
+- Added green gangzone, because i frogot to put it from red to green before..
+- Anti sprint macro system is done! no more cheetah's!
+- Added a funny sound when you kill a player or die (thanks to [U]27 aka Jay)
+- Added sounds when player connect/disconnect/timeout
+- Anti sprint macro system added only when you're in round (Thanks for testing to xhLr)
+
+28/07/2015
+- Grenades/Knife/Gas is now again in gunmenu
+- Now you can take deagle/sniper
+- Fixed bug that u can take 3 weapons that not grenades/knife/gas
+- Updated with last commits by Khalid
+- Fixed /admins dialog (miss to put a commit thing)
+- New spawn position
+- Gamemode has his own versionchecker now
+- League mode and original antimacro removed
+
+30/07/2015
+- Updated with last commits by Khalid (server now running on RC1)
+- New ScoreBoard Textdraws
+- Removed definitly League mode (miss to leave something)
+- Added Radio System (requested by [RBK]Avicii)
+
+31/07/2015
+- Removed vote system (it was used only for league mode)
+- New ScoreBoard Textdraws (again)
+- New RoundBar Textdraws
+- No more limits for any gun(just sniper/spas 1 per team)
+- Updated with last commits by Khalid
+- Upgraded to 0.1.6
+
+05/08/2015
+- Updated with last commits by Khalid (04,05,07 August 2015)
+- Removed AC file checker that spam whole chat when a player connect
+- Anti sprint-macro system now is fixed and 101% accurate on players
+- Upgraded to 0.1.7
+
+08/08/2015
+- Updated with last commits by Khalid (08 August 2015)
+- Anti sprint-macro once again edited and fixed
+- Upgraded to 0.1.8
+
+09/08/2015
+- Updated with last commits by Khalid (08,09 August 2015)
+- Added a little sound when you sync
+- FPS limit can be between 30 and 90 maximum (before was 40~90)
+- Added a dialog(/commits) for tell people what does that mean
+- Upgraded to 0.1.9
+
+10/08/2015
+- Added sound when you sync (frogot to write this update before)
+- Removed the sound when you get killed or kill someone
+- Added a sound when someone gets killed
+- Added new function PlaySoundForAll
+- Fixed on connect/disconnect sounds
+- Updated with last commits by Khalid (10 August 2015)
+- Removed anti sprint-macro
+- Added original anti macro system
+- Gamemode now running on Bulletproof RC2
+- Upgraded to 0.1.10
+
+11/08/2015
+- Removed sniper/deagle, everyone complains about it
+- Updated with last commits by Khalid (11 August 2015)
+- Upgraded to 0.1.11
+
+30/09/2015
+- Removed the sound when someone gets killed (annoying)
+- Removed head weapon object (low fps and lag)
+- Stop crying about weps limit and use /gunmenumod (for guys that say shit gm)
+- Fixed when you rcon login and it dont gives you level 5
+- Upgraded to 0.1.12
+
+13/10/2015
+- Made an important update for AC by Khalid
+- Updated with last commits by Khalid (13 October 2015)
+- Added some fixes by James Cullum
+- Upgraded to 0.1.13

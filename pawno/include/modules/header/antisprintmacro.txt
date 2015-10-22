@@ -1,0 +1,10 @@
+/*
+		Anti sprint-macro system by shendlaw
+*/
+
+new AntiSprintMacro[MAX_PLAYERS];
+new AntiSprintMacroWarns[MAX_PLAYERS];
+
+forward TimerAntiSprintMacro(playerid);
+forward TimerAntiSprintMacroWarn(playerid);
+forward AnnounceSprintMacroUser(playerid);
